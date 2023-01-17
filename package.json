@@ -1,0 +1,35 @@
+{
+  "name": "dusty-umbrella",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.1.0",
+    "aws-sdk": "^2.1056.0",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.6.6",
+    "multer": "^1.4.4",
+    "path": "^0.12.7",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-audio/dusty-umbrella.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyler-audio/dusty-umbrella/issues"
+  },
+  "homepage": "https://github.com/tyler-audio/dusty-umbrella#readme"
+}
